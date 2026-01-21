@@ -2,7 +2,7 @@
 This project is to find the risk genes for Alzheimer's disease with large cohort dataset of ROSMAP
 
 ## Talbe of Contents\
-1 Introduction 
+1 Introduction\ 
 -[Phenotype Data](phenotype_data)\
 -[Spinal Cord Proteomics Subset](spinal_cord_proteomics_subset)\
 -[Modified GEMMA Model](modified_gemma_model)\
