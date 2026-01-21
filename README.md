@@ -8,7 +8,7 @@ This project aims to identify risk genes for Alzheimer’s disease using large c
 - [Phenotype Data](#phenotype-data)
 - [Spinal Cord Proteomics Subset](#spinal-cord-proteomics-subset)
 - [Modified GEMMA Model](#modified-gemma-model)
-- [Preparing GEMMA Input](#prepareing_gemma_input)
+- [Preparing GEMMA Input](#preparing_gemma_input)
 - [Running GEMMA](#running_gemma)
 - [Pathway Analysis](#pathway_analysis)
 
@@ -60,7 +60,7 @@ We use a modified workflow based on **GEMMA** (Genome-wide Efficient Mixed Model
 
 Resources:
 - GEMMA GitHub: https://github.com/genetics-statistics/GEMMA
-- Yang Lab (Emory): Software Resources
+- Yang Lab (Emory): [Software Resources](https://yanglab-emory.github.io/pages/software.html)
 
 ## Preparing GEMMA Input
 
