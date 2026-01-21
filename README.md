@@ -8,7 +8,6 @@ This project aims to identify risk genes for Alzheimer’s disease using large c
 - [Phenotype Data](#phenotype-data)
 - [Spinal Cord Proteomics Subset](#spinal-cord-proteomics-subset)
 - [Modified GEMMA Model](#modified-gemma-model)
-- [Preparing GEMMA Input](#preparing-gemma-input)
 - [Running GEMMA](#running-gemma)
 - [Pathway Analysis](#pathway-analysis)
 
@@ -62,7 +61,7 @@ Resources:
 - GEMMA GitHub: https://github.com/genetics-statistics/GEMMA
 - Yang Lab (Emory): [Software Resources](https://yanglab-emory.github.io/pages/software.html)
 
-## Preparing GEMMA Input
+## Running GEMMA
 
 The script `get_GEMMA_input_Spinal_cord_protein.r` generates GEMMA-formatted input files from proteomics and phenotype data.
 
@@ -77,8 +76,6 @@ gene   A   T     X1        X2        X3        X4
 NOC2L  A   T   0.0140   -0.2120   -0.1880   -0.1050
 ISG15  A   T  -0.3350    0.3950    0.3490   -0.1330
 ``
-
-## Running GEMMA
 
 We run GEMMA using the script sbatch_protein_Spinal_cord_gemma.sh. For each tissue × phenotype combination, we extract key association statistics for downstream analysis.
 Example GEMMA output:
