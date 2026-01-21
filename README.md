@@ -3,14 +3,14 @@ This project is to find the risk genes for Alzheimer's disease with large cohort
 
 ##Talbe of Contents\
 -[Intruduction](introduction)\
--[Phenotype Data](Phenotype_Data)\
--[Spinal Cord Proteomics Subset](Spinal_Cord_Proteomics_Subset)\
--[Modified GEMMA Model](Modified_GEMMA_Model)\
--[Preparing GEMMA Input](Preparing_GEMMA_Input)\
--[Running GEMMA](Running_GEMMA)\
--[Pathway Analysis](Pathway_Analysis)
+-[Phenotype Data](phenotype_data)\
+-[Spinal Cord Proteomics Subset](spinal_cord_proteomics_subset)\
+-[Modified GEMMA Model](modified_gemma_model)\
+-[Preparing GEMMA Input](preparing_gemma_input)\
+-[Running GEMMA](running_gemma)\
+-[Pathway Analysis](pathway_analysis)
 
-##Intr0duction
+##Introduction
 This project aims to identify risk factors for Alzheimer’s disease (AD) and motor related disorders, and to investigate the shared and distinct biological mechanisms underlying these conditions.
 The primary datasets come from the ROSMAP (Religious Orders Study and Memory and Aging Project) consortium. We analyze multi tissue, multi omic data including:
 •	DLPFC (dorsolateral prefrontal cortex): ~1200 RNA seq samples; ~800 proteomics samples
