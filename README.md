@@ -8,9 +8,9 @@ This project aims to identify risk genes for Alzheimer’s disease using large c
 - [Phenotype Data](#phenotype-data)
 - [Spinal Cord Proteomics Subset](#spinal-cord-proteomics-subset)
 - [Modified GEMMA Model](#modified-gemma-model)
-- [Preparing GEMMA Input](#preparing_gemma_input)
-- [Running GEMMA](#running_gemma)
-- [Pathway Analysis](#pathway_analysis)
+- [Preparing GEMMA Input](#preparing-gemma-input)
+- [Running GEMMA](#running-gemma)
+- [Pathway Analysis](#pathway-analysis)
 
 ## Introduction
 
