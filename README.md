@@ -1,7 +1,7 @@
 # Risk-gene-for-Alzheimer-s-disease-
 This project is to find the risk genes for Alzheimer's disease with large cohort dataset of ROSMAP
 
-##Talbe of Contents\
+## Talbe of Contents\
 -[Intruduction](introduction)\
 -[Phenotype Data](phenotype_data)\
 -[Spinal Cord Proteomics Subset](spinal_cord_proteomics_subset)\
