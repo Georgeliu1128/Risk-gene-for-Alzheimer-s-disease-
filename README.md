@@ -63,7 +63,9 @@ Resources:
 
 ## Running GEMMA
 
-The script `[scripts/get_GEMMA_input_Spinal_cord_protein.r](scripts/get_GEMMA_input_Spinal_cord_protein.r)` generates GEMMA-formatted input files from proteomics and phenotype data.
+The script
+`get_GEMMA_input_Spinal_cord_protein.r`
+generates GEMMA-formatted input files from proteomics and phenotype data.
 
 Example outputs:
 - `Spinal_cord_protein_anno.tsv`
