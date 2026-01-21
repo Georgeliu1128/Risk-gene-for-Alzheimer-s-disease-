@@ -1,7 +1,16 @@
 # Risk-gene-for-Alzheimer-s-disease-
 This project is to find the risk genes for Alzheimer's disease with large cohort dataset of ROSMAP
 
-##Introduction
+##Talbe of Contents\
+-[Intruduction](introduction)\
+-[Phenotype Data](Phenotype_Data)\
+-[Spinal Cord Proteomics Subset](Spinal_Cord_Proteomics_Subset)\
+-[Modified GEMMA Model](Modified_GEMMA_Model)\
+-[Preparing GEMMA Input](Preparing_GEMMA_Input)\
+-[Running GEMMA](Running_GEMMA)\
+-[Pathway Analysis](Pathway_Analysis)
+
+##Intr0duction
 This project aims to identify risk factors for Alzheimer’s disease (AD) and motor related disorders, and to investigate the shared and distinct biological mechanisms underlying these conditions.
 The primary datasets come from the ROSMAP (Religious Orders Study and Memory and Aging Project) consortium. We analyze multi tissue, multi omic data including:
 •	DLPFC (dorsolateral prefrontal cortex): ~1200 RNA seq samples; ~800 proteomics samples
@@ -44,6 +53,7 @@ gene   A   T     X1        X2        X3        X4        X5        X6        X7
 NOC2L  A   T   0.0140   -0.2120   -0.1880   -0.1050   -0.2400    0.3620   -0.5670
 ISG15  A   T  -0.3350    0.3950    0.3490   -0.1330    0.1610    1.6600   -0.1400
 AGRN   A   T  -0.0662   -0.0938    0.0225    0.1360   -0.2660   -0.0627   -0.2380
+
 ####Running GEMMA
 We run GEMMA using the script sbatch_protein_Spinal_cord_gemma.sh. For each tissue × phenotype combination, we extract key association statistics for downstream analysis.
 Example GEMMA output:
