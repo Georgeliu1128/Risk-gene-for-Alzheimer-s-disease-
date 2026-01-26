@@ -78,7 +78,7 @@ NOC2L  A   T   0.0140   -0.2120   -0.1880   -0.1050
 ISG15  A   T  -0.3350    0.3950    0.3490   -0.1330
 ``
 
-We run GEMMA using the script sbatch_protein_Spinal_cord_gemma.sh. For each tissue × phenotype combination, we extract key association statistics for downstream analysis.
+We run GEMMA using the script [sbatch_gemma.sh](/scripts/sbatch_gemma.sh). For each tissue × phenotype combination, we extract key association statistics for downstream analysis.
 Example GEMMA output:
 ```Code
 chr   rs       ps        beta        se          logl_H1     l_remle     l_mle     p_wald   p_lrt   p_score
@@ -86,14 +86,14 @@ chr1  NOC2L    944203   5.60e-02   1.07e-01    8.54e+01    1.00e+05    1.00e+05 
 chr1  PERM1    975198  -8.93e-02   1.20e-01    8.55e+01    1.00e+05    1.00e+05   0.4568   0.4518  0.4523
 chr1  ISG15   1001138   8.26e-02   3.85e-02    8.76e+01    1.00e+05    1.00e+05   0.0326   0.0307  0.0315
 ```
-These results are then used for visualization (Manhattan plots, Upset plots) via Analyze_GEMMA_outputs.r.
+These results are then used for visualization (Manhattan plots, Upset plots) via [Analyze_GEMMA_outputs.r](/scripts/Analyze_GEMMA_outputs.r).
 
 ## Pathway Analysis
 
 To compare biological pathways involved in AD and motor related disorders, we perform GSEA (Gene Set Enrichment Analysis) using:
-•	get_rnk_file.r — generates ranked gene lists
-•	gsea_analysis_preranked.sh — runs GSEA in preranked mode
+•	[get_rnk_file.r](/scripts/get_rnk_file.r) — generates ranked gene lists
+•	[gsea_analysis_preranked.sh](/scripts/gsea_analysis_preranked.sh) — runs GSEA in preranked mode
 Pathway visualizations (e.g., NES distributions, leading edge summaries) are produced using:
-•	gsea_out_visualization.r (ggplot2 based)
+•	[gsea_out_visualization.r](/scripts/sig_pathwar_plot.r) (ggplot2 based)
 
 
