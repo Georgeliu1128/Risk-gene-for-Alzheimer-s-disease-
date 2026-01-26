@@ -63,7 +63,7 @@ Resources:
 
 ## Running GEMMA
 
-The script [get_GEMMA_input_Spinal_cord_protein.r](/files/scripts/get_GEMMA_input_Spinal_cord_protein.r)
+The script [get_GEMMA_input_Spinal_cord_protein.r](Risk-gene-for-Alzheimer-s-disease-/files/scripts/get_GEMMA_input_Spinal_cord_protein.r)
 generates GEMMA-formatted input files from proteomics and phenotype data.
 
 Example outputs:
