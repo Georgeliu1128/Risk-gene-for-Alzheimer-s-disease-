@@ -86,7 +86,7 @@ chr1  NOC2L    944203   5.60e-02   1.07e-01    8.54e+01    1.00e+05    1.00e+05 
 chr1  PERM1    975198  -8.93e-02   1.20e-01    8.55e+01    1.00e+05    1.00e+05   0.4568   0.4518  0.4523
 chr1  ISG15   1001138   8.26e-02   3.85e-02    8.76e+01    1.00e+05    1.00e+05   0.0326   0.0307  0.0315
 ```
-These results are then used for visualization ([Manhattan plots](figures/DLPFC.motor_dexterity_DGE_mh-1.png), Upset plots via [Analyze_GEMMA_outputs.r](/scripts/Analyze_GEMMA_outputs.r).
+These results are then used for visualization (![Manhattan plots](figures/DLPFC.motor_dexterity_DGE_mh-1.png), Upset plots via [Analyze_GEMMA_outputs.r](/scripts/Analyze_GEMMA_outputs.r).
 
 ## Pathway Analysis
 
